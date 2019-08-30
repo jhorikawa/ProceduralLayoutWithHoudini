@@ -1,0 +1,118 @@
+{
+    "room_requisites" : 
+    [
+        {
+            "id" : 0,
+            "name" : "dining",
+            "type" : "social",
+            "min_width" : 3.0,
+            "max_width" : 30.0,
+            "min_length" : 3.0,
+            "max_length" : 30.0,
+            "min_area" : 2.0,
+            "max_area" : 100.0,
+            "window_necessity" : 0,
+            "entrance_possibility" : 1,
+            "priority" : 0.9,
+            "r" : 0.9,
+            "g" : 0.1,
+            "b" : 0.1
+        },
+        {
+            "id" : 1,
+            "name" : "room1",
+            "type" : "private",
+            "min_width" : 3.0,
+            "max_width" : 10.0,
+            "min_length" : 3.0,
+            "max_length" : 10.0,
+            "min_area" : 4.0,
+            "max_area" : 100.0,
+            "window_necessity" : 0,
+            "entrance_possibility" : 0,
+            "priority" : 0.5,
+            "r" : 0.1,
+            "g" : 0.4,
+            "b" : 0.9
+        },
+        {
+            "id" : 2,
+            "name" : "room2",
+            "type" : "private",
+            "min_width" : 3.0,
+            "max_width" : 10.0,
+            "min_length" : 3.0,
+            "max_length" : 10.0,
+            "min_area" : 4.0,
+            "max_area" : 100.0,
+            "window_necessity" : 0,
+            "entrance_possibility" : 0,
+            "priority" : 0.4,
+            "r" : 0.4,
+            "g" : 0.1,
+            "b" : 0.9
+        },
+        {
+            "id" : 3,
+            "name" : "kitchen",
+            "type" : "service",
+            "min_width" : 1.0,
+            "max_width" : 10.0,
+            "min_length" : 1.0,
+            "max_length" : 10.0,
+            "min_area" : 2.0,
+            "max_area" : 100.0,
+            "window_necessity" : 0,
+            "entrance_possibility" : 0,
+            "priority" : 0.8,
+            "r" : 0.1,
+            "g" : 0.9,
+            "b" : 0.5
+        },
+        {
+            "id" : 4,
+            "name" : "bathroom",
+            "type" : "service",
+            "min_width" : 1.0,
+            "max_width" : 4.0,
+            "min_length" : 1.0,
+            "max_length" : 4.0,
+            "min_area" : 1.0,
+            "max_area" : 10.0,
+            "window_necessity" : 0,
+            "entrance_possibility" : 0,
+            "priority" : 0.6,
+            "r" : 0.5,
+            "g" : 0.9,
+            "b" : 0.1
+        },
+        {
+            "id" : 5,
+            "name" : "living",
+            "type" : "social",
+            "min_width" : 3.0,
+            "max_width" : 30.0,
+            "min_length" : 3.0,
+            "max_length" : 30.0,
+            "min_area" : 4.0,
+            "max_area" : 100.0,
+            "window_necessity" : 1,
+            "entrance_possibility" : 1,
+            "priority" : 1.0,
+            "r" : 0.6,
+            "g" : 0.3,
+            "b" : 0.9
+        }
+    ],
+    "connection_requisites" :
+    [
+        {
+            "c1" : 0,
+            "c2" : 5
+        },
+        {
+        		"c1" : 3,
+          	"c2" : 0
+        }
+    ]
+}
